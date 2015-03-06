@@ -1,8 +1,10 @@
-# SpendyPoly
-Spendy Project Polymer version
+# NdShows console
+NdShows Project Polymer version
 
 npm install
 
-app/bower install
+cd app
+
+bower install
 
 grunt serve
