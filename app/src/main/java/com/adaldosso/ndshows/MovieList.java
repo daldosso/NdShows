@@ -103,7 +103,7 @@ public final class MovieList {
                 TvShow tvShow = new TvShow(item.getString("name"));
                 JSONArray images = item.getJSONArray("image-urls");
                 for (int j=0; j<images.length(); j++) {
-                    tvShow.addImage(images.get(i).toString());
+                    tvShow.addImage(images.get(j).toString());
                 }
                 result.add(tvShow);
             }
